@@ -1,0 +1,26 @@
+package lpa2;
+import java.util.ArrayList;
+import java.util.Arrays;
+public class Wirtzz {
+
+	public static void main(String[] args) {
+		
+		String[] disciplinas = {"Matemática", "Filosofia", "História", "Física"};
+		
+		ArrayList<String> novaLista = new ArrayList<String>(Arrays.asList(disciplinas));
+		
+		novaLista.add("Geografia");
+		novaLista.add("Língua inglesa");
+		novaLista.add("Arte");
+		novaLista.add("Química");
+		novaLista.add("Educação Física");
+		
+		for (String i: novaLista)
+		{
+			System.out.println("Disciplina: " + i);
+		}
+			
+
+	}
+
+}
